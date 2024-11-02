@@ -11,7 +11,7 @@ author_profile: true
     -- Side Project 1 Example --
     <div class="sideproject-item">
         <div class="sideproject-image-container">
-        <img style="vertical-align:middle;" src="/images/sideprojects/project1.jpg" alt="Project 1 Screenshot">
+        <img src="/images/sideprojects/project1.jpg" alt="Project 1 Screenshot">
         </div>
         <div class="sideproject-content">
         <h2 class="sideproject-title">
@@ -39,7 +39,7 @@ author_profile: true
   <!-- Side Project 1 Example -->
   <div class="sideproject-item">
     <div class="sideproject-image-container">
-      <img style="vertical-align:middle;" src="/images/sideprojects/sideproject1_snakegame.gif" alt="sideproject1_snakegame">
+      <img src="/images/sideprojects/sideproject1_snakegame.gif" alt="sideproject1_snakegame">
     </div>
     <div class="sideproject-content">
       <h2 class="sideproject-title">
