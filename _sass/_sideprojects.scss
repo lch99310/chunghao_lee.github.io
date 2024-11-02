@@ -1,83 +1,97 @@
 /* Side Projects page container */
 .sideprojects-container {
-    max-width: 1024px;
-    margin: 2rem auto;
-    padding: 0 2rem;
-  }
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.sideproject-item {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);  // Prevent content overflow
+  gap: 2rem;
+  margin-bottom: 6rem;  // Space between projects
+  align-items: flex-start;  // Align items to top
   
-  .sideproject-item {
-    display: grid;
-    grid-template-columns: 300px 1fr;  // Fixed image width and flexible content
-    grid-template-areas: 
-      "image content";
-    gap: 2rem;
-    position: relative;
-    margin-bottom: 4rem;
-    
-    @media screen and (max-width: $small) {
-      grid-template-columns: 1fr;
-      grid-template-areas: 
-        "image"
-        "content";
-      gap: 1rem;
-    }
+  @media screen and (max-width: $small) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
+}
+
+.sideproject-image-container {
+  width: 100%;
   
-  .sideproject-image-container {
-    grid-area: image;
+  img {
     width: 100%;
-    height: fit-content;
-    align-self: start;  // Aligns with the start of the content
-    
-    img {
-      aspect-ratio: 4 / 3;
-      border-radius: 4px;
-      display: block;  // Removes unwanted spacing
-    }
+    height: auto;
+    aspect-ratio: 4 / 3;  // Maintain consistent image ratio
+    border-radius: 4px;
+    display: block;
+    object-fit: cover;
   }
+}
+
+.sideproject-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 0.5rem;  // Slight offset to align with image
+}
+
+.sideproject-title {
+  font-size: 1.5rem;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
   
-  .sideproject-content {
-    grid-area: content;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;  // Consistent spacing between elements
-  }
-  
-  .sideproject-title {
-    font-size: 0.85rem;
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-weight: bold;
+  a {
     color: #4169e1;
-    line-height: 1.2;
+    text-decoration: none;
     
-    a {
-      color: inherit;
-      text-decoration: none;
-      
-      &:hover {
-        text-decoration: underline;
-      }
+    &:hover {
+      text-decoration: underline;
     }
   }
+}
+
+.sideproject-description {
+  font-size: 0.85rem;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #24292e;
+  margin: 0;
+  padding: 0;
+}
+
+.sideproject-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
   
-  .sideproject-description {
+  a {
+    color: #4169e1;
+    text-decoration: none;
     font-size: 0.85rem;
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    line-height: 1.6;
-    color: #24292e;
-  }
-  
-  .sideproject-links {
-    display: flex;
-    gap: 1.5rem;
     
-    a {
-      color: #4169e1;
-      text-decoration: none;
-      font-size: 0.85rem;
-      
-      &:hover {
-        text-decoration: underline;
-      }
+    &:hover {
+      text-decoration: underline;
     }
   }
+}
+
+// Fix for Safari
+@supports (-webkit-hyphens: none) {
+  .sideproject-item {
+    display: flex;
+    align-items: flex-start;
+    
+    .sideproject-image-container {
+      flex: 0 0 300px;
+    }
+    
+    .sideproject-content {
+      flex: 1;
+    }
+  }
+}
