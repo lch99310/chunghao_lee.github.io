@@ -24,7 +24,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: $header-font-family;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -237,7 +237,7 @@ figure {
 figcaption {
   margin-bottom: 0.5em;
   color: mix(#fff, $text-color, 25%);
-  font-family: $caption-font-family;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: $type-size-6;
 
   a {

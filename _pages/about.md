@@ -23,7 +23,7 @@ Wistron:
 University of Maryland, College Park:
 * Smith Fellow scholarship, Recipient
 * **UMD Outstanding Graduate Student Award, 2022, Nomination**
-* * Reported by [**Maryland Today**]([https://arxiv.org/abs/2212.07691](https://www.rhsmith.umd.edu/research smith-school-research-helps-minor-league-baseball-players-swing-fences))
+* Reported by [**Maryland Today**]([https://arxiv.org/abs/2212.07691](https://www.rhsmith.umd.edu/research smith-school-research-helps-minor-league-baseball-players-swing-fences))
 * [***Baseball Informatics—From MiLB to MLB Debut***](https://link.springer.com/chapter/10.1007/978-981-19-9658-0_5) Published !
 * [Impact Consulting Fellowship, Summer 2021](https://github.com/lch99310/lch99310.github.io/blob/gh_pages/_achievements/ChungHao%20Lee.pdf), **1st Place**
 * ISM Global Case Competition, January 2022
