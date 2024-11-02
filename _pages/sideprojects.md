@@ -49,3 +49,39 @@ author_profile: true
     </div>
   </div>
 </div>
+
+<!-- Llama 3 translation extension Project -->
+<div class="sideprojects-container">
+  <div class="sideproject-item">
+    <div class="sideproject-image-container">
+      <img src="/images/sideprojects/sideproject2_llama3_edge_translator.gif" alt="Llama3 translation Edge extension">
+    </div>
+    <div class="sideproject-content">
+      <h2 class="sideproject-title">Llama3 translation Edge extension</h2>
+      <div class="sideproject-description">
+       Welcome to CH made Chinese (Mandarin) Translator! This powerful Edge extension seamlessly translates English web pages into Traditional Chinese (Mandarin) using the advanced Llama 3.2 language model through the Groq API. Developed in collaboration with Claude AI, this extension demonstrates the potential of AI-assisted development in creating practical, user-friendly tools.
+      </div>
+      <div class="sideproject-links">
+        <a href="https://github.com/lch99310/llama3-edge-translator">[GitHub]</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Underestimated MLB players Project -->
+<div class="sideprojects-container">
+  <div class="sideproject-item">
+    <div class="sideproject-image-container">
+      <img src="/images/sideprojects/sideproject3_underestimated_MLBplayer.png" alt="underestimated_MLBplayer">
+    </div>
+    <div class="sideproject-content">
+      <h2 class="sideproject-title">MLB Underestimated Player Analyzer</h2>
+      <div class="sideproject-description">
+       A data-driven analytics tool that identifies underestimated MLB players by analyzing the gap between actual (wOBA) and expected (xwOBA) performance metrics. This project helps teams and analysts discover players who are performing above expectations but might be flying under the radar.
+      </div>
+      <div class="sideproject-links">
+        <a href="https://github.com/lch99310/underestimated_MLBplayer_ranking/tree/main">[GitHub]</a>
+      </div>
+    </div>
+  </div>
+</div>
