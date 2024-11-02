@@ -9,6 +9,7 @@
     display: flex;
     margin-bottom: 3rem;
     gap: 2rem;
+    align-items: baseline;
     
     @media screen and (max-width: $small) {
       flex-direction: column;
