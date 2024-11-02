@@ -1,5 +1,4 @@
 # Develop override settings
-
 url: http://localhost:4000
 
 analytics:
@@ -7,7 +6,32 @@ analytics:
 
 comments:
   disqus:
-    shortname            : "mmistakes-dev"
+    shortname: "mmistakes-dev"
 
 sass:
   style: expanded
+
+# Add these settings
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Make sure you have this for GitHub Pages
+repository: yourusername/yourusername.github.io  # Replace with your actual repository name
+
+# Defaults should match your main _config.yml
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

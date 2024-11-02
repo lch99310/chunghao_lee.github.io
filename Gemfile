@@ -11,17 +11,19 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
-
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem "jekyll-sitemap"
+  gem "hawkins"
+  gem "jekyll-include-cache"    # Add this if you're using minimal mistakes theme
+  gem "jekyll-paginate"         # Add this if you need pagination
+  gem "jekyll-gist"            # Add this if you need gist support
 end
+
+# Windows specific gems
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
+# do not have a Java counterpart.
+gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]

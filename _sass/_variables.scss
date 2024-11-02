@@ -151,3 +151,20 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+/* Typography */
+$font-size-base: 16px !default;
+$h2-font-size: $font-size-base * 1.75 !default;
+
+/* Colors */
+$text-color: #333 !default;
+$link-color: #2a76dd !default;
+$border-color: #e0e0e0 !default;
+
+/* Breakpoints */
+$small: 768px !default;
+$medium: 992px !default;
+$large: 1024px !default;
+
+/* Other variables you might need */
+$type-size-6: 0.75rem !default;
