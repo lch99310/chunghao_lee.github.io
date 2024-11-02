@@ -6,42 +6,49 @@
   }
   
   .sideproject-item {
-    display: flex;
+    display: grid;
+    grid-template-columns: 300px 1fr;  // Fixed image width and flexible content
+    grid-template-areas: 
+      "image content";
     gap: 2rem;
-    align-items: center;  // Centers items vertically
+    position: relative;
+    margin-bottom: 4rem;
     
     @media screen and (max-width: $small) {
-      flex-direction: column;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+        "image"
+        "content";
       gap: 1rem;
     }
   }
   
   .sideproject-image-container {
-    flex: 0 0 300px;  // Fixed width, won't grow or shrink
-    display: flex;
-    align-items: center;  // Center the image vertically
+    grid-area: image;
+    width: 100%;
+    height: fit-content;
+    align-self: start;  // Aligns with the start of the content
     
     img {
       width: 100%;
       border-radius: 4px;
-      object-fit: cover;
+      display: block;  // Removes unwanted spacing
     }
   }
   
   .sideproject-content {
-    flex: 1;
+    grid-area: content;
     display: flex;
     flex-direction: column;
-    justify-content: center;  // Center content vertically
+    gap: 1rem;  // Consistent spacing between elements
   }
   
   .sideproject-title {
     font-size: 2.5rem;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-weight: bold;
-    line-height: 1.2;
     color: #4169e1;
-    padding-bottom: 2rem;
+    line-height: 1.2;
     
     a {
       color: inherit;
@@ -58,26 +65,19 @@
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     line-height: 1.6;
     color: #24292e;
-    padding-bottom: 1.5rem;
   }
   
   .sideproject-links {
+    display: flex;
+    gap: 1.5rem;
+    
     a {
       color: #4169e1;
       text-decoration: none;
-      margin-right: 1.5rem;
       font-size: 1rem;
       
       &:hover {
         text-decoration: underline;
       }
-    }
-  }
-  
-  /* Responsive adjustments */
-  @media screen and (max-width: $small) {
-    .sideproject-title {
-      font-size: 1.8rem;
-      padding-bottom: 1.5rem;
     }
   }
