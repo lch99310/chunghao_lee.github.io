@@ -85,3 +85,22 @@ author_profile: true
     </div>
   </div>
 </div>
+
+
+<!-- Anime Character Identifier App -->
+<div class="sideprojects-container">
+  <div class="sideproject-item">
+    <div class="sideproject-image-container">
+      <img src="/images/sideprojects/sideproject4_ac_identifier.gif" alt="ac_identifier">
+    </div>
+    <div class="sideproject-content">
+      <h2 class="sideproject-title">Anime Character Identifier App</h2>
+      <div class="sideproject-description">
+       An iOS application that helps users identify anime characters by taking photos, the app provides quick identification of anime characters along with their series information. Using advanced AI technology including Meta's Llama3 for character recognition, Exa ai for searching, and Claude3.5 for debugging, I was able to develop this app in a day.
+      </div>
+      <div class="sideproject-links">
+        <a href="https://github.com/lch99310/anime_character_identifier_app">[GitHub]</a>
+      </div>
+    </div>
+  </div>
+</div>
