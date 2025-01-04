@@ -17,8 +17,11 @@ Education
 
 Work experience
 ======
+* TikTok                 
+  <div style="background-color:#fffefa;">Product Operation Manager<div style = 'float: right;'>Jan 2025 - Present</div></div>
+  
 * Wistron                 
-  <div style="background-color:#fffefa;">AI PM<div style = 'float: right;'>Oct 2022 - Present</div></div>
+  <div style="background-color:#fffefa;">AI PM<div style = 'float: right;'>Oct 2022 - Dec 2024</div></div>
 
 * Pegatron                 
    <div style="background-color:#fffefa;">Factory PM<div style = 'float: right;'>May 2018 - Mar 2020</div></div>
