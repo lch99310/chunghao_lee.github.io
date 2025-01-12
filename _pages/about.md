@@ -47,4 +47,4 @@ National Tsing Hua University:
 
 For more info
 ------
-More info about my background can be found in [LinkedIn](https://www.linkedin.com/in/lch99310/), and [Portfolio](https://drive.google.com/file/d/1I9hm_6oVndFlJiiFnMLjpqCFNys6UUZN/view?usp=sharing). More pictures can be found in [My Shutterstock](https://www.shutterstock.com/zh-Hant/g/Yginger+Lee/sets)
+More info about my background can be found in [LinkedIn](https://www.linkedin.com/in/lch99310/), and [Portfolio](https://drive.google.com/file/d/1xCpVUkGE5tWmFTTcVszR-KPXKVzWX-YO/view?usp=sharing). More pictures can be found in [My Shutterstock](https://www.shutterstock.com/zh-Hant/g/Yginger+Lee/sets)
